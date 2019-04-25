@@ -1,0 +1,133 @@
+body {
+	background-color: #9ccc65; /*light green lighten 2*/
+}
+
+.sub-3 {
+    font-weight: 600;
+    line-height: 0.7;
+    padding: 20px 0 0 0;
+}
+
+.container {
+    
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.wrapper{
+	width:70%;
+	margin: 0 auto; 
+	padding: 20px 50px 60px 50px;
+	background-color: white;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+    color:#525252;
+	font-size: 100%;
+	border-radius: 2px;
+}
+
+.fabWrapper {
+    width: auto;
+}
+
+input{display:inline-block;}
+
+.indexButtons {
+	background-color: #8bc34a;
+	height: 160px;
+	width: 160px;
+	border: 0px;
+	border-radius: 2px;
+	margin: 6px;
+	font-size: 110%;
+	font-weight: 500;
+	padding: 5px;
+
+}
+
+/*input[type=submit]{
+	width:160px;
+	border:0px;
+	padding:15px;
+	background-color: lightgrey;
+	color:#fff; 
+	cursor: pointer;
+}*/
+
+.button {
+  background-color: #8bc34a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  width: 200px;
+  cursor: pointer;
+}
+
+/*Index page and /header.php*/
+/*==================*/
+
+.fixed-action-btn {
+    
+    top: 30px;
+    right: auto;
+    margin-left: 3%;
+}
+
+.tooltipped {
+    background-color: #33691e !important;
+    opacity: 0.7 !important;
+    
+}
+
+.indexButtons {
+    width: 160px;
+    height: 160px;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    background-size: contain;
+    vertical-align: top;
+    margin: 30px 15px;
+}
+
+
+
+/*Listing tables=*/
+/*==================*/
+
+table {margin-top: 20px}
+
+td {
+	padding: 10px;
+	width: 200px;
+    vertical-align: top;
+}
+
+th {
+    padding: 10px;
+	width: 200px;
+}
+.price {
+    width: 70px;
+}
+
+.imgListing {
+    margin-top: 5px;
+    width: 150px;
+    border: 1px solid #656565;
+}
+
+/*Main logo=*/
+/*==================*/
+
+
+.eReviveHeaderLogo {
+	width: 120px;
+	margin: 10px auto 10px;
+
+}
